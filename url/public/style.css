@@ -40,7 +40,7 @@ form div label{
 input:hover{
     background-color:rgb(233, 241, 250); ;
 }
-#short{
+#shortCode{
     height:35px;
     width: 505px;
     font-size: 20px;

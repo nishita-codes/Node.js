@@ -18,7 +18,7 @@
             </div>
             <div>
                 <label for="short">Enter shortCode:</label>
-                <input type="text" name="shortcode" id="short" required>
+                <input type="text" name="shortCode" id="shortCode" required>
             </div>
             <button type="submit">Shortened</button>
         </form>
@@ -34,8 +34,7 @@
             const url = formData.get('url');
             const shortCode =formData.get('shortCode');
 
-
-
+            console.log(url,shortCode);
         })
     </script>
 </body>
