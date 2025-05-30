@@ -65,9 +65,9 @@ button{
     
     margin-top:1rem;
     background-color: rgb(238, 243, 249);
-    height:4rem;
+    height:3rem;
+    padding:0.3rem;
     text-align: center;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
 }
