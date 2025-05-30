@@ -4,7 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items:center;
-    height:100vh;
+    
     margin:0;
 }
 .container{
@@ -56,4 +56,18 @@ button{
     background-color: rgb(233, 241, 250);
     margin-top:20px;
    
+}
+#shortened-urls{
+    list-style: none;
+    margin-left:-2rem;
+}
+#shortened-urls li{
+    
+    margin-top:1rem;
+    background-color: rgb(238, 243, 249);
+    height:4rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }

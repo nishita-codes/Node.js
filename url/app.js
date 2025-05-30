@@ -52,6 +52,10 @@ const server = createServer(async (req , res)=>{
           res.writeHead(404,{'Content-Type': 'text/html'});
           res.end("404 page not found");
         }
+      }else if(req.url ==="/links"){
+        const links = await loadLinks();
+        res.writeHead(200 , {"Content-Type":"application/json"});
+        return res.end(JSON.stringify(links))
       }
   }
   if(req.method === "POST" && req.url === "/shorten"){
